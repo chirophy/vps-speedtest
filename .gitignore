@@ -1,0 +1,20 @@
+# 本机节点配置、测速历史和备份
+/nodes.json
+/speedtest_log*.csv
+/backups/
+
+# 构建工具、缓存、验收副本和归档
+/.tools/
+/.validation/
+/dist/
+/archive/
+
+# 本机协作说明和历史需求
+/AGENTS.md
+/go版需求.md
+
+# 运行依赖、生成程序和启动日志
+/iperf3/
+*.exe
+*.dll
+/startup-error.log
